@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <title>Page Title</title>
+  <link rel="stylesheet" href="styles.css" />
+
+  <body>
+    <header class="content">
+      <div>
+        <a class="logo" href="./index.html">
+          <img src="/assets/logo/logo-01.svg" alt="logo" />
+        </a>
+      </div>
+      <hr />
+      <nav>
+        <ul>
+          <li><a href="./index.html" class="active">PRODUCTS</a></li>
+          <li><a href="./cart.html">CART</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content">
+      <h2>Original cinamon roll</h2>
+      <img
+        class="detail-img"
+        src="/assets/products/original-cinnamon-roll.jpg"
+      />
+      <div class="detail-cont">
+        <p>Customize our delicious, hand-made cinamon roll to your liking!</p>
+        <form class="detail-specs">
+          <div class="input">
+            <label for="glazing">Glazing:</label>
+            <select id="glazing">
+              <option>Keep original</option>
+              <option>Sugar milk</option>
+              <option>Vanilla milk</option>
+              <option>Double chocolate</option>
+            </select>
+          </div>
+          <div class="input">
+            <label for="size">Pick size:</label>
+            <select id="size">
+              <option>1</option>
+              <option>3</option>
+              <option>6</option>
+              <option>12</option>
+            </select>
+          </div>
+          <div class="add-cart">
+            <span>$ 2.49</span>
+            <button>Add to Cart</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
