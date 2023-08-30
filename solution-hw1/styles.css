@@ -120,12 +120,7 @@ hr {
 /* ----- */
 
 .cart-list dd {
-  margin-bottom: 1rem;
-}
-
-.cart-list img {
-  width: 200px;
-  border: solid 3px black;
+  max-width: 200px;
 }
 
 .cart-hr {
